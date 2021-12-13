@@ -1,0 +1,150 @@
+/* Globales */
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: #ebd9d9;
+
+}
+a {
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: #cfa7a7;
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+    color: #cfa7a7;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 4.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+.container {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    justify-content: center;
+}
+.navegation {
+    display: grid;
+
+    color: #000000;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+}
+.navegation-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding: 0;
+
+}
+img {
+    max-width: 100%;
+}
+.contenedor--places {
+    background-color: #9c6363;
+    border-radius: 1rem;
+}
+.placescon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 1rem;
+}
+.imagenc {
+    width: 45rem;
+    border: solid 2px #000;
+    border-radius: 5px;
+    margin: 5rem;
+    padding: 5rem auto;
+    
+}
+.places--info {
+   font-size: large;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+    margin-right: 3rem;
+    
+
+}
+.places--infoo {
+    background-color: #9c63636e;
+   font-size: large;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+    margin-right: 3rem;
+    
+
+}
+.places--tittle {
+ text-align: center;
+}
+@media (max-width: 480px) {
+    .placescon {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .imagenc {
+        width: 30rem;
+        border: solid 2px #000;
+        border-radius: 5px;
+        margin: 0 0 2rem 4rem;
+        
+    }
+    
+    .navegation {
+        display: flex;
+        flex-direction: column;
+    }
+    .navegation-bar {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.nave {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    
+    justify-content: center;
+}
+#home-boton {
+    margin-left: 10rem;
+}
+.futer {
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    font-size: 1rem;
+    background-color: #9c636371;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+/*<p>
+                    <p> Engelberg in Switzerland is a resort village which is located in the heart of
+                        Switzerland’s Uri Alps. This Alpine village was formed around a medieval
+                        monastery and is known for its mesmerizing landscapes, scrumptious cheese, ski
+                        slopes, chocolates and humble hospitality. If you enjoy skiing or taking in the
+                        breathtaking views of untouched nature, this is the place for you to be at.</p>*/
